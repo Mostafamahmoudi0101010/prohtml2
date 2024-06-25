@@ -113,3 +113,16 @@ h1 {
   padding: 10px 10px;
   gap: 55px;
 }
+
+.row-2 {
+  background: black;
+  width: 360px;
+  height: 34px;
+  margin-top: 15px;
+}
+
+.berands {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
