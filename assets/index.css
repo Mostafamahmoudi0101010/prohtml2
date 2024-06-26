@@ -6,8 +6,6 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.body {
-}
 .container {
   width: 100%;
   max-width: 360px;
@@ -131,6 +129,7 @@ h1 {
 .row-3 {
   background: white;
   color: black;
+  margin-bottom: 20px;
 }
 h2 {
   font-size: 32px;
@@ -207,4 +206,75 @@ h2 {
   margin-top: 160px;
   margin-left: 145px;
   z-index: 3;
+}
+
+.row-4 {
+  height: 399px;
+  background: rgba(233, 233, 233, 1);
+  margin-top: 140px;
+  color: black;
+  font-family: Lato;
+}
+
+.bestseller {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.sell {
+  width: 227.75px;
+  height: 271px;
+}
+.sell-1 {
+  background-color: white;
+  width: 227.75px;
+  height: 220px;
+  border-radius: 24px;
+  align-content: space-around;
+  text-align: center;
+  position: relative;
+}
+
+.favorit {
+  width: 56px;
+  height: 56px;
+  background-color: white;
+  position: absolute;
+  margin-left: 172px;
+  margin-top: -34px;
+  border-radius: 50%;
+  text-align: center;
+  align-content: space-around;
+}
+.off {
+  background: rgba(58, 94, 70, 1);
+  width: 41px;
+  height: 20px;
+  border-radius: 6px;
+  text-align: center;
+  align-content: space-around;
+}
+.photo {
+  width: 132.99px;
+  height: 148.36px;
+}
+.title {
+  margin-top: 15px;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  align-content: space-around;
+}
+
+.trolley {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  background: rgba(253, 222, 103, 1);
+  text-align: center;
+  align-content: space-around;
+}
+.title-4 {
+  gap: 28px;
 }
