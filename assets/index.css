@@ -380,12 +380,41 @@ h2 {
     margin-top: 300px;
     margin-left: 1400px;
   }
-  /* .row-2 {
+  .row-2 {
     width: 1540px;
     max-width: 1540px;
     height: 100px;
     background: rgba(24, 24, 24, 1);
-  } */
+  }
+  .berands {
+    width: 1540px;
+    max-width: 1540px;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+  }
+
+  .logo {
+    height: 40px;
+  }
+  .logo-1 {
+    width: 165.13px;
+  }
+  .logo-2 {
+    width: 257.98;
+  }
+  .logo-3 {
+    width: 112px;
+  }
+  .logo-4 {
+    width: 60px;
+  }
+  .logo-5 {
+    width: 166.32px;
+  }
+  .logo-6 {
+    width: 144.76px;
+  }
   .menu {
     display: none;
   }
