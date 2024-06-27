@@ -330,9 +330,15 @@ h2 {
     background: linear-gradient(110.6deg, #2a4032 0.81%, #3a5e46 100%);
     position: relative;
   }
+  .rowheader {
+    width: 1320px;
+    max-width: 1320px;
+    height: 748.26px;
+    margin: auto;
+  }
   .menuheader {
+    width: 1230px;
     display: flex;
-    width: 1540px;
     align-items: center;
     align-content: space-between;
   }
@@ -532,5 +538,59 @@ h2 {
     position: absolute;
     margin-top: -68.5px;
     margin-left: 660px;
+  }
+  .row-5 {
+    width: 1540px;
+    height: 449.47px;
+    background: rgba(59, 95, 71, 1);
+  }
+  .end {
+    width: 1540px;
+    max-width: 1540px;
+    height: 449.47px;
+    margin: auto;
+    display: flex;
+  }
+  .yellowbox {
+    width: 500px;
+    height: 449.47px;
+    background: rgba(253, 222, 103, 1);
+    margin-top: -10px;
+    margin-left: -15px;
+    color: black;
+    font-size: 64px;
+    text-align: center;
+    align-content: space-around;
+  }
+  .sellshoe {
+    margin-right: 160px;
+  }
+
+  .brownshoe {
+    width: 500px;
+    height: 213.47px;
+    margin-left: 100px;
+  }
+  .greenbox {
+    width: 1040px;
+    text-align: center;
+    align-content: space-around;
+  }
+  .greenbox h2 {
+    margin-right: 180px;
+    font-size: 64px;
+    color: white;
+  }
+  .timer {
+    width: 153.5px;
+    height: 152px;
+  }
+  .timer a {
+    font-size: 24px;
+  }
+  .boxgreen {
+    width: 153.5px;
+    height: 112px;
+    font-size: 64px;
   }
 }
