@@ -380,15 +380,22 @@ h2 {
     margin-top: 300px;
     margin-left: 1400px;
   }
+  .menu {
+    display: none;
+  }
   .row-2 {
     width: 1540px;
     max-width: 1540px;
+    margin: auto;
     height: 100px;
     background: rgba(24, 24, 24, 1);
   }
+  .mark {
+    width: 1320px;
+    max-width: 1320px;
+    margin: auto;
+  }
   .berands {
-    width: 1540px;
-    max-width: 1540px;
     display: flex;
     padding-top: 20px;
     justify-content: space-around;
@@ -415,7 +422,58 @@ h2 {
   .logo-6 {
     width: 144.76px;
   }
-  .menu {
-    display: none;
+  .row-3 {
+    width: 1320px;
+    max-width: 1540px;
+    margin: auto;
+    background: rgba(255, 255, 255, 1);
+  }
+  .row-3 h2 {
+    margin-top: 30px;
+  }
+  .Collectioncards {
+    display: flex;
+    gap: 80px;
+    margin-top: 30px;
+  }
+  .Collection-1 {
+    width: 500px;
+    height: 550.75px;
+    font-size: 24px;
+  }
+  .bluejean {
+    width: 278.66px;
+    height: 478.88px;
+    margin-top: 2px;
+    margin-left: 110.67px;
+  }
+  .card-1 {
+    margin-left: 310px;
+    margin-top: 408px;
+  }
+  .Collection-2 {
+    width: 740px;
+    height: 550.75px;
+    margin-top: 0;
+  }
+  .tshirtman {
+    width: 455.14px;
+    height: 550.12px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .comment-2 {
+    margin-left: 475px;
+    margin-top: 80px;
+    font-size: 24px;
+  }
+  .comment-3 {
+    margin-top: 250px;
+    margin-left: 475px;
+    font-size: 48px;
+  }
+  .plus {
+    margin-left: 545px;
+    margin-top: 475px;
   }
 }
