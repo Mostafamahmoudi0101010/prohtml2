@@ -2,12 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Roboto;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 body {
   font-family: Roboto;
+  font-family: Lato;
 }
 
 .container {
@@ -29,6 +27,7 @@ h1 {
   font-size: 60px;
   line-height: 50px;
   margin-bottom: 10px;
+  letter-spacing: 13%;
 }
 .open {
   width: 180px;
@@ -251,11 +250,21 @@ h2 {
   text-align: center;
   align-content: space-around;
 }
+.slimoff {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: space-between;
+}
 .off {
   background: rgba(58, 94, 70, 1);
   width: 41px;
   height: 20px;
   border-radius: 6px;
+  margin-left: 10px;
+  margin-top: -45px;
+  font-size: 12px;
+  color: white;
   text-align: center;
   align-content: space-around;
 }
@@ -269,6 +278,7 @@ h2 {
   gap: 35px;
   align-items: center;
   align-content: space-around;
+  font-family: Roboto;
   /* justify-content: end; */
 }
 
@@ -279,9 +289,6 @@ h2 {
   background: rgba(253, 222, 103, 1);
   text-align: center;
   align-content: space-around;
-}
-.title-4 {
-  gap: 28px;
 }
 .row-5 {
   height: 210px;
@@ -324,8 +331,6 @@ h2 {
 }
 
 @media screen and (min-width: 361px) and (max-width: 2540px) {
-  * {
-  }
   .container {
     width: 1540px;
     max-width: 1540px;
@@ -380,6 +385,7 @@ h2 {
   .year {
     font-size: 60px;
     margin-top: 100px;
+    font-style: italic;
   }
   .daller {
     font-size: 36px;
@@ -397,6 +403,7 @@ h2 {
     font-size: 112px;
     line-height: 100px;
     margin-top: 40px;
+    letter-spacing: 10px;
   }
   .open {
     line-height: 16px;
@@ -427,10 +434,13 @@ h2 {
     background: rgba(253, 222, 103, 1);
     display: block;
     color: black;
+    font-family: Roboto;
+    line-height: 30.47px;
     position: absolute;
     text-align: center;
     align-content: space-around;
     font-size: 26px;
+    font-weight: bold;
     margin-top: -375px;
     margin-left: 712px;
     z-index: 6;
@@ -447,9 +457,8 @@ h2 {
   .arrowbox {
     display: flex;
     gap: 15px;
-    text-align: end;
     position: absolute;
-    margin-top: 185px;
+    margin-top: 55px;
     margin-left: 665px;
   }
   .menu {
@@ -542,7 +551,9 @@ h2 {
   .comment-3 {
     margin-top: 250px;
     margin-left: 475px;
+    font-family: Roboto;
     font-size: 48px;
+    font-weight: bold;
   }
   .plus {
     margin-left: 545px;
@@ -586,6 +597,14 @@ h2 {
   .title {
     justify-content: space-between;
   }
+  .fee {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .befor {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.2);
+    padding-right: 10px;
+  }
   .favorit {
     margin-top: -50px;
     margin-left: 240px;
@@ -622,14 +641,18 @@ h2 {
     background: rgba(253, 222, 103, 1);
     margin-top: -10px;
     margin-left: -15px;
-    color: black;
-    font-family: Roboto;
-    font-size: 64px;
     text-align: center;
     align-content: space-around;
   }
-  .sellshoe {
-    margin-right: 160px;
+  .endcoment {
+    line-height: 190px;
+  }
+
+  .sellshoe h2 {
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: bold;
+    color: black;
   }
 
   .brownshoe {
@@ -639,14 +662,16 @@ h2 {
   }
   .greenbox {
     width: 1040px;
-    text-align: center;
-    align-content: space-around;
+    /* text-align: center;
+    align-content: space-around; */
   }
   .greenbox h2 {
-    margin-right: 180px;
+    margin-left: -255px;
+
     font-size: 64px;
     color: white;
   }
+
   .timer {
     width: 153.5px;
     height: 152px;
