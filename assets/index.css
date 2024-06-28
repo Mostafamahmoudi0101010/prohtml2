@@ -2,8 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Roboto;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  font-family: Roboto;
 }
 
 .container {
@@ -331,16 +335,25 @@ h2 {
     position: relative;
   }
   .rowheader {
-    width: 1320px;
-    max-width: 1320px;
+    width: 1540px;
+    max-width: 1540px;
     height: 748.26px;
     margin: auto;
   }
   .menuheader {
     width: 1230px;
-    display: flex;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
     align-items: center;
     align-content: space-between;
+  }
+  .buz {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 417px;
+    align-items: center;
   }
   .Etalon {
     font-size: 36px;
@@ -364,6 +377,49 @@ h2 {
     text-align: center;
     align-content: space-around;
   }
+  .year {
+    font-size: 60px;
+    margin-top: 100px;
+  }
+  .daller {
+    font-size: 36px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 635px;
+  }
+  .foo {
+    line-height: 50px;
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 112px;
+    line-height: 100px;
+    margin-top: 40px;
+  }
+  .open {
+    line-height: 16px;
+  }
+  .greenman {
+    width: 342.16px;
+    height: 619.63px;
+    /* margin-top: -282px; */
+    margin-top: -492px;
+    margin-left: 710px;
+  }
+  .circlegreen-1 {
+    width: 308.6px;
+    height: 308.6px;
+    margin-top: -366px;
+    margin-left: 820px;
+  }
+  .circlegreen-2 {
+    width: 318.8px;
+    height: 318.8px;
+    margin-top: -268px;
+    margin-left: 645px;
+  }
   .headeroff {
     width: 110px;
     height: 110px;
@@ -375,8 +431,9 @@ h2 {
     text-align: center;
     align-content: space-around;
     font-size: 26px;
-    margin-top: 100px;
-    margin-left: 300px;
+    margin-top: -375px;
+    margin-left: 712px;
+    z-index: 6;
   }
   .bolet {
     display: flex;
@@ -384,8 +441,16 @@ h2 {
     justify-content: end;
     gap: 15px;
     position: absolute;
-    margin-top: 300px;
-    margin-left: 1400px;
+    margin-top: -290px;
+    margin-left: 1210px;
+  }
+  .arrowbox {
+    display: flex;
+    gap: 15px;
+    text-align: end;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 665px;
   }
   .menu {
     display: none;
@@ -558,6 +623,7 @@ h2 {
     margin-top: -10px;
     margin-left: -15px;
     color: black;
+    font-family: Roboto;
     font-size: 64px;
     text-align: center;
     align-content: space-around;
